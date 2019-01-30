@@ -9,4 +9,4 @@ def multiply(a, b)
   a * b
 end
 
-puts multiply(a)
+puts multiply(12)
