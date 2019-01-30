@@ -1,4 +1,4 @@
-# true or false?
+# state if true or false for the following
 
 # 1. (32 * 4) >= 129 >>> false
 
