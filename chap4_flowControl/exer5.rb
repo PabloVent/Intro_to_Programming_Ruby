@@ -19,7 +19,6 @@ num_choose(number_input)
 
 # def num_choose(number_input)
 #   case 
-
 #   when number_input >= 0 && number_input <= 50 
 #     puts "Your number lies between 0 and 50" 
 #   when number_input > 50 && number_input <= 100
