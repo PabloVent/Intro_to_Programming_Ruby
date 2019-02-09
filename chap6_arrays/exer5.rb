@@ -4,4 +4,6 @@ a = string[6]
 b = string[11]
 c = string[19]
 
-p "#{a}, #{b} and nil (not displayed) #{c}"
+p a
+p b
+p c
