@@ -17,7 +17,7 @@ answer = case number_input
       "number is greater than 100"
   end
   puts answer
-  
+    
 # if number_input < 0
 #   puts "It can't be a negative number"
 # elsif number_input >= 0 && number_input <= 50 
