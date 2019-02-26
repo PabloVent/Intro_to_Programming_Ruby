@@ -1,12 +1,21 @@
 family = { uncles: ["bob", "joe", "steve"],
            sisters: ["jane", "jill", "beth"],
-           brothers: ["frank", "rob", "donovan"],
+           brothers: ["frank", "rob", "david"],
            aunts: ["mary", "sallie", "susan"]
 }
 
-closest_family = family.select do |key, value| 
-  (key == :sisters)  || (key == :brothers)
+close_fam = []
+
+family.select do |k, v| 
+   if k == :sisters || k == :brothers
+    close_fam << v
+  end
 end
-p closest_family.values.flatten
-# p family_array
-# p family
+
+p close_fam.flatten
+
+
+# closest_family = family.select do |key, value| 
+#   (key == :sisters)  || (key == :brothers)
+# end
+# p closest_family.values.flatten
