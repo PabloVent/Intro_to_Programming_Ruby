@@ -1,0 +1,1 @@
+# The major difference is that a hash is made up of key/value pairs (similar to an object in JS) and an array doesn't exhibit this structured bu it's numerically indexed based. The key, in a hash, is used to refer to a value.  In ther case of an array, we use the index to refer to a specific element in the array.
