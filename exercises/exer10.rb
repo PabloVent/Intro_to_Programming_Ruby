@@ -1,4 +1,4 @@
-# Can hash values be arrays? YES.
+# Can hash values be arrays? YES, see example below:
 p person = { full_name: ['Paul', 'Ringwood'], age: 45}
 
 # Can you have an array of hashes? Absolutely!!
