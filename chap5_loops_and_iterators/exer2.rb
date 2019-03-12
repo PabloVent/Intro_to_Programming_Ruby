@@ -7,17 +7,15 @@ while x != "STOP" do
   x = gets.chomp.to_s
 end
 
-# loop do
-#   puts "Do you want to enter the loop? say STOP if you do."
-#   ans = gets.chomp.to_s
+# or
 
-#   if ans == "STOP"
-#     break
-#   end
-#   puts "Are you sure you don't want to break free? you know what to do."
-#   ans1 = gets.chomp.to_s
+# puts "You'll be entering a loop.  Do you want to try this, Y or N? We'll tell you how to get out though."
+# answer = gets.chomp
   
-#   if ans1 == "STOP"
+# while answer == 'Y'
+#   puts "You're in, do you want to do that again? All you've gotta do is say no if you wanna break free...."
+#   answer = gets.chomp
+#   if answer != 'Y'
 #     break
 #   end
 # end
