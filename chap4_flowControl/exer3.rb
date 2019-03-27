@@ -7,7 +7,7 @@ answer = case number_input
     "number lies betwwen 0 and 50"
   when 51..100
     "number lies between 51 and 100"
-  when (-Float::INFINITY)...(-1)
+  when (-Float::INFINITY)..(-1)
      puts "no negative numbers please..."
     else
       "number is greater than 100"
