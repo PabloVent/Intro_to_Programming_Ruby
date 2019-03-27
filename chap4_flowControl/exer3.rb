@@ -1,10 +1,6 @@
 puts "type a number between 0 and 100"
 number_input = gets.chomp.to_i
 
-
-puts "Choose a number between 0 and 100"
-number_input = gets.chomp.to_i
-
 answer = case number_input
 
   when 0..50
