@@ -20,7 +20,7 @@ answer = case number_input
 #   puts "Your number lies between 0 and 50" 
 # elsif number_input > 50 && number_input <= 100
 #   puts "Your number lies between 51 and 100"
-# else number_input > 100
+# else 
 #   puts "It has to be less than or equal to 100"
 # end
   
